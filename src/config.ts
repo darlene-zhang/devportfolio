@@ -92,9 +92,9 @@ export const siteConfig = {
   ],
 };
 
-import { defineConfig } from 'astro/config'
+import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://darlene-zhang.github.io',
-  base: '/devportfolio',
-})
+  base: '/devportfolio/',
+});
