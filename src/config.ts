@@ -94,7 +94,7 @@ export const siteConfig = {
 
 import { defineConfig } from 'astro/config'
 
-export default defineConfig(
+export default defineConfig({
   site: 'https://darlene-zhang.github.io',
-  base: '/portfolio',
+  base: '/devportfolio',
 })
