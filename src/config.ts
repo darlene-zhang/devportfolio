@@ -1,91 +1,92 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Darlene Zhang",
+  title: "Data Science & Cognitive Science Student @ UC Berkeley",
+  description: "Portfolio website of Darlene Zhang",
+  accentColor: "#86dd9cff",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "darlenezhang@berkeley.edu",
+    linkedin: "https://www.linkedin.com/in/darlenezhang/",
+    github: "https://github.com/darlene-zhang",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a Data Science and Cognitive Science student at UC Berkeley interested in machine learning, artificial intelligence, and full-stack software development. I enjoy building systems that combine data, algorithms, and user experience—from machine learning models for image and text classification to interactive software applications. My experience includes developing full-stack mobile features, conducting data analysis on large datasets, and implementing deep learning models using modern ML frameworks.",
+
+  skills: [
+    "Python",
+    "Java",
+    "JavaScript",
+    "R",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "React",
+    "Node.js",
+    "Firebase",
+    "Pandas",
+    "NumPy",
+    "Machine Learning",
+    "Data Analysis",
+    "REST APIs",
+    "Git"
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Vision Transformer & Masked Autoencoder for Image Classification",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Implemented Vision Transformer (ViT) and Masked Autoencoder models on CIFAR-10 using PyTorch and TensorFlow. Applied self-supervised learning, attention mechanisms, and GPU acceleration to train models achieving ~70% accuracy.",
+      link: "",
+      skills: ["Python", "PyTorch", "TensorFlow", "Deep Learning"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Email Spam Classification",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Built a logistic regression classifier for email spam detection with feature engineering and word correlation analysis. Achieved 92% accuracy with 90% precision and 88% recall using scikit-learn and NumPy.",
+      link: "",
+      skills: ["Python", "scikit-learn", "NLP", "Machine Learning"],
     },
     {
-      name: "ExtensionKit",
+      name: "Portal Prowler",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a procedurally generated 2D game world using advanced data structures and algorithms including A*, MST, and disjoint sets. Implemented serialization, event-driven programming, and rendering using Java.",
+      link: "",
+      skills: ["Java", "Algorithms", "Game Development"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "A Round Entertainment",
+      title: "Software Engineering Intern",
+      dateRange: "Jun 2024 - Oct 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Developed and maintained Joopi, a dating app that onboarded 500+ users in beta while improving matchmaking accuracy.",
+        "Built full-stack mobile features using JavaScript, React Native, Node.js, and Firebase.",
+        "Improved UX navigation and reduced user drop-offs by ~20% through interface and workflow improvements.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Women in Computing & Data Science (WiCDs)",
+      title: "Projects & Machine Learning Committee",
+      dateRange: "Sep 2024 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Performed exploratory data analysis and statistical modeling on 20k+ rows of corporate and clinical data.",
+        "Used Python, Pandas, and NumPy for data cleaning, preprocessing, and analysis.",
+        "Collaborated with JelikaLite to generate machine learning insights for neuromodulation research related to autism spectrum disorder.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University of California, Berkeley",
+      degree: "BA in Data Science & Cognitive Science",
+      dateRange: "2022 - 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Relevant coursework: Data Structures, Artificial Intelligence, Data Engineering, Deep Neural Networks",
+        "Additional coursework: NLP, Machine Learning, Computational Models of Cognition",
       ],
     },
   ],
